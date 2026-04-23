@@ -2,12 +2,12 @@
 #include <DHT.h>
 
 // ADAFRUIT IO
-#define IO_USERNAME "USERNAME"
-#define IO_KEY "MY_KEY"
+#define IO_USERNAME ""
+#define IO_KEY ""
 
 //WIFI
-#define WIFI_SSID "MY_WIFI"
-#define WIFI_PASS "MY_WIFI_PASSWORD"
+#define WIFI_SSID ""
+#define WIFI_PASS ""
 
 //DHT11
 #define DHTPIN 4 //pino DATA do DHT11 ligado ao GPI04

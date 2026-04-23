@@ -22,3 +22,13 @@ app.get("/sensor", (req, res) => {
 
     res.send("OK");
 });
+
+app.get("/dados", (req, res) => {
+    res.json(dados);
+  });
+  
+  const PORT = process.env.PORT || 3000;
+  
+  app.listen(PORT, () => {
+    console.log(`Servidor rodando na porta ${PORT}`);
+  });
