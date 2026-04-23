@@ -1,4 +1,25 @@
 {
+  "name": "api-sensor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariacecilia-01/api_sensor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mariacecilia-01/api_sensor/issues"
+  },
+  "homepage": "https://github.com/mariacecilia-01/api_sensor#readme",
+
   "dependencies": {
     "express": "^5.2.1",
     "node": "^25.9.0"
